@@ -2,6 +2,7 @@ body,
 main {
   display: flex;
 }
+
 body {
   flex-direction: column;
 }
@@ -15,6 +16,7 @@ article {
 
 aside {
   flex: 1;
+  background-color: #ded9d9;
 }
 article,
 aside {
