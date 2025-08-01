@@ -1,0 +1,164 @@
+body {
+  /* margin: 20px 50px 0 20px; */
+  margin: 0;
+  padding: 0 1rem 0 1rem;
+  box-sizing: border-box;
+  /* position: relative; */
+}
+/* General class to center texts (block)*/
+.txt-center {
+  text-align: center;
+}
+section {
+  padding: 1rem;
+}
+.logo1 {
+  height: 1rem;
+}
+header {
+  padding: 1rem 2rem;
+}
+
+.smile-logo {
+  height: 25px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 50px;
+}
+li {
+  /* display: inline; */
+  align-items: flex-start;
+}
+li > a {
+  color: rgb(249, 248, 248);
+  text-decoration: none;
+}
+.first-section {
+  background-image: url("./img/CSS_Advanced/Object.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  /* background-position: center center; */
+  /* background-attachment: fixed; Makes the image fixed during scroll */
+}
+.h1-first {
+  text-align: center;
+  padding-top: 25px 0;
+  font-family: "lato", sans-serif;
+  font-weight: 1100;
+  color: #fff;
+  font-size: 80px;
+  /* background-color: rgb(108, 46, 46); */
+  flex: 1 0 100%;
+  margin-bottom: 10px;
+}
+.hero-containt {
+  /* display: flex; */
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding-left: 20px;
+  /* background-color: #e2b5b5; */
+  margin-bottom: 60px;
+}
+.hero-containt > span {
+  color: #000;
+  flex: 0 0;
+  background-color: #fff;
+}
+.flex-wrapper button {
+  /* display: block; */
+  /* margin-left: 50%; */
+  font-weight: 600;
+  font-size: 1.5rem;
+  background-color: #cc80ff;
+  /* flex: 1 0 100%; */
+  margin-bottom: 150px;
+  color: #fff;
+  padding: 20px;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.649);
+}
+.hero-tags {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem 0 1.5rem 0;
+}
+
+.hero-tags span {
+  color: #fff;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+}
+.flex-wrapper {
+  flex: 1 0 100%; /* Take full row in flex-wrap */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+}
+.h2-pros {
+  color: #fff;
+}
+
+.pink-color {
+  color: #cc80ff;
+}
+.img-container1 {
+  display: flex;
+  gap: 6rem;
+  margin-top: 3rem;
+  justify-content: center;
+  flex-basis: 1fr;
+}
+.img-container1 img {
+  border-radius: 50%;
+}
+.img-container1 h3,
+p {
+  color: #fff;
+}
+
+.singl-img-cont {
+  display: flex;
+  gap: 2rem;
+  background-color: #cc80ff;
+  color: #fff;
+  padding: 5.5rem 5.5rem;
+  font-size: 20px;
+}
+.singl-img-cont > h3,
+p {
+  margin-left: 2.5rem;
+}
+.tutorials-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+.third-section > h2 {
+  display: block;
+  text-align: center;
+  font-weight: 400;
+}
+
+.third-section > h2 > span {
+  color: #cc80ff;
+}
+.card {
+  width: 220px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: sans-serif;
+  padding: 10px;
+}
