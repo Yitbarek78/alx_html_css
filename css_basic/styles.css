@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  padding: 24px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+li {
+  list-style: none;
+}
+
+ul a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #555;
+}
+
+main {
+  display: flex;
+  padding: 0 24px;
+  flex: auto;
+}
+
+article {
+  flex: 2;
+  overflow-y: auto;
+}
+
+aside {
+  flex: 1;
+  overflow-y: auto;
+}
+
+/* Logo Style */
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-right: 20px;
+  color: #ff6f61;
+}
+
+/* Article Styling */
+article {
+  background-color: #fdf6f0;
+  border-left: 5px solid #ff6f61;
+  padding: 20px;
+  border-radius: 8px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Paragraphs inside article */
+article p {
+  color: #333;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* Headings */
+article h1 {
+  color: #2c3e50;
+  font-size: 2rem;
+  margin-top: 25px;
+  border-bottom: 2px solid #ff6f61;
+}
+
+article h2 {
+  color: #34495e;
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+article h3 {
+  color: #7f8c8d;
+  font-size: 1.2rem;
+  font-style: italic;
+  margin-top: 15px;
+}
+
+/* Link inside article */
+article a {
+  color: #e67e22;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+article a:hover {
+  text-decoration: underline;
+}

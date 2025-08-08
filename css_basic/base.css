@@ -1,0 +1,77 @@
+/* Logo Style */
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-right: 20px;
+  color: #ff6f61;
+}
+
+/* General article container styling */
+article {
+  background-color: #fdf6f0;
+  border-left: 5px solid #ff6f61;
+  padding: 20px;
+  border-radius: 8px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Paragraphs inside article */
+article p {
+  color: #333;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* Headings */
+article h1 {
+  color: #2c3e50;
+  font-size: 2rem;
+  margin-top: 25px;
+  border-bottom: 2px solid #ff6f61;
+}
+
+article h2 {
+  color: #34495e;
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+article h3 {
+  color: #7f8c8d;
+  font-size: 1.2rem;
+  font-style: italic;
+  margin-top: 15px;
+}
+
+/* Link inside article */
+article a {
+  color: #e67e22;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+article a:hover {
+  text-decoration: underline;
+}
+
+/* Mobile responsive tweaks if needed */
+@media (max-width: 600px) {
+  article {
+    padding: 15px;
+  }
+
+  article p,
+  article h1,
+  article h2,
+  article h3 {
+    font-size: 1rem;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+    margin-right: 10px;
+  }
+}
